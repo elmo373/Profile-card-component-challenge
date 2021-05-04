@@ -32,8 +32,58 @@ section{
 .card-arriba{
     background-image: url(images/bg-pattern-card.svg);
     background-size: cover;
-    height: 150px;
+    height: 170px;
+    /* Aplicando Bordes_Beymar */
+    border-start-end-radius: 20px;  
+    border-top-left-radius: 20px; 
+}
+/*Emanuel fin*/
+/* Beymar inicio */
+.card {
+    padding: 0 0 25px;
+}
+/* Centrado de la foto de perfil 
+   Colocado de bordes    */
+.img-perfil {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -55px auto 20px auto;
 }
 
+.img-perfil img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* establecemos el tamaño de la letra */
+.nombre-y-edad {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.edad {
+    color: hsl(229, 23%, 23%);
+    font-weight: 400;
+    opacity: 0.7;
+}
+.ciudad {
+    color: hsl(229, 23%, 23%);
+    font-weight: 400;
+    opacity: 0.7;
+}
+.titulo {
+    color: hsl(229, 23%, 23%);
+    font-weight: 400;
+    opacity: 0.7;
+}
+.Valor {
+    font-weight: 700;
+}
 
-/*Emanuel fin*/
+.ciudad {
+    font-size: .8rem;
+}
+/* Beymar fin */
+
