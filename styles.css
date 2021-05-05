@@ -117,3 +117,12 @@ section{
 }
 
 /* Marisol fin */
+/* Inicio Aracely */
+.titulo{
+    display:block;
+    font-weight: 300;
+    font-size: .7rem;
+    color: hsl(229, 23%, 23%);
+    letter-spacing: .1rem;
+}
+/* Aracely fin */
